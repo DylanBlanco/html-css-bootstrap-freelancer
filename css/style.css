@@ -7,6 +7,12 @@ reset
     box-sizing: border-box;
 }
 
+:root {
+    --header-footer-color: #2C3E50;
+    --main-green-color: #1BBC9D;
+    --footer-top-color: #3A546D;
+}
+
 /***********************
 debug
 ***********************/
@@ -24,6 +30,10 @@ debug
 }
 
 /***********************
+color
+***********************/
+
+/***********************
 general
 ***********************/
 .container{
@@ -31,6 +41,22 @@ general
     margin: 0 auto;
 }
 
+.row {
+    width: 70%;
+    margin: 0 auto;
+}
+header .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
 /***********************
 header
 ***********************/
