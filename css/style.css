@@ -34,7 +34,12 @@ header {
 .section-green {
     background-color: var(--main-green-color);
 }
-
+.footer-top {
+    background-color: var(--footer-top-color);
+}
+.footer-bottom {
+    background-color: var(--header-footer-color);
+}
 /***********************
 general
 ***********************/
@@ -49,13 +54,16 @@ ul {
 }
 a {
     text-decoration: none;
-    padding: 10px;
 }
 img {
     width: 100%;
 }
 section {
     padding: 50px 0;
+}
+i {
+    font-size: 2rem;
+    color: #2C3E50;
 }
 /***********************
 header
@@ -64,6 +72,9 @@ header
 /***********************
 main
 ***********************/
+.col-4 {
+    margin-bottom: 20px;
+}
 
 /***********************
 footer
